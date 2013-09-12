@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+.pic {
+	float:left;
+	width: 50%;
+	margin: -40em 0 0 -4em;
+	opacity: 0.3;
+}
+
+body {
+	
+	width: 100%;
+	padding: 5px 0 0 10px;
+}
+
+h1 {
+	font-size:40px;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold; 
+	font-weight:400;
+	line-height: 80%;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-style: italic;
+	font-weight:100;
+	margin-top: -1em;
+	margin-right: 1.5em;
+}
+
+
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-size:13.5px;
+	color: #555;
+	margin-right: 3em;
+	width: 200px;
+	font-weight: 200;
+}
+
+.horizontal_dotted_line {
+  border-bottom: 2.5px dotted #999;
+  width: 200px;
+}
+
+.contact {
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	color: #555;
+	margin-top: 0.5em;
+}
+
+.email {
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	color: #555;
+	margin-top: 0.5em;
+	margin-top: -.5em;
+}
+	
+
+
+@media only screen and (min-width: 25em) {
+	
+.pic {
+	float:right;
+	width:100%;
+	
+	margin: -30em 0 0 -4em;
+	opacity: 0.3;
+}
+	
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-size:13.5px;
+	color: #555;
+	margin-right: 3em;
+	width: 300px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-style: italic;
+	font-weight:100;
+	margin-top: -1.50em;
+	margin-right: 1.5em;
+}
+
+body {
+	width: 100%;
+	padding: 5px 0 0 45px;
+}
+
+
+.horizontal_dotted_line {
+  border-bottom: 2.5px dotted #999;
+  width: 300px;
+}
+
+@media only screen and (min-width: 37.5em) {
+	
+.pic {
+	float:right;
+	width:40%;
+	margin: -31em 0 0 -4em;
+	opacity: 0.3;
+}
+	
+	
+body {
+	width: 100%;
+	padding: 0 0 0 45px;
+}
+
+h1 {
+	font-size:55px;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold; 
+	font-weight:400;
+	line-height: 80%;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight:100;
+	margin-top: -1.9em;
+	margin-right: 1.5em;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-size:14.5px;
+	color: #555;
+	margin-right: 3em;
+	width: 415px;
+}
+
+.horizontal_dotted_line {
+  border-bottom: 2.5px dotted #999;
+  width: 415px;
+}
+
